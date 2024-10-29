@@ -24,3 +24,38 @@ int main() {
     cout << "Amir is older than Sufiyan";
     };
 };
+
+
+
+// While Loop 
+// Write a While loop for printing the first 100 Number
+
+int main () {
+    // int sum = 0;
+    // We start the number 1 
+    int num = 1;
+    
+    while (num <= 100) {
+        num++;
+        cout << num << "\n";
+    }
+}
+
+
+// 
+
+int main () {
+    // int sum = 0;
+    // We start the number 1 
+    int num = 1;
+    int numberLimt = 0;
+    cout << "Please enter a number: ";
+    cin >> numberLimt ;
+  
+    while (num <= numberLimt) {
+        num++;
+        cout << num << "\n";
+    }
+}
+
+
