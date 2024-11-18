@@ -1,7 +1,8 @@
 // 
 #include <iostream>
 using namespace std;
-
+#include <stdlib.h>
+#include <time.h>
 
 int main () {
 // Copying an Array
@@ -16,4 +17,15 @@ int main () {
     n[i] = age[i];
     cout << n[i] ;
   };
+}
+
+
+int main() {
+    srand(time(NULL)); // Seed the random number generator
+
+    int x = rand();
+    int randomNum = 1 + x % 6;
+    cout << randomNum << endl;
+
+    return 0;
 }
