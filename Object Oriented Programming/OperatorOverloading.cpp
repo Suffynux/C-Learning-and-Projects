@@ -11,7 +11,7 @@ arrary() {
       myArray[i] = i + 2;
     };
   };
-// operator overloading script overloading
+// operator overloading script 
   int &operator[](int index){
     if(index >10) {
       cout << "Array index out of bound, exiting";
